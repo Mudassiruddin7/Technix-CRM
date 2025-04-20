@@ -1,0 +1,16 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Force LF line endings for all source files
+*.ts  text eol=lf
+*.tsx text eol=lf
+*.js  text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md  text eol=lf
+
+# Treat these as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

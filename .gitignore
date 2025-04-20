@@ -1,0 +1,61 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.log
+
+# Coverage
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: MacOS .AppleDouble files
+.AppleDouble
+
+# Optional: Windows folder thumbnails
+ehthumbs.db
+Desktop.ini
+
+# Optional: local history for JetBrains IDEs
+.local-history/
+
+# Optional: Next.js export cache
+export/
+
+# Optional: lint cache
+.eslintcache
+
+# Optional: Prettier cache
+.prettiercache
+
+# clerk configuration (can include secrets)
+/.clerk/
